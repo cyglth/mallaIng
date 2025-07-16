@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
     // Obtener todos los elementos de asignatura
     const subjects = document.querySelectorAll('.subject');
     const approvedSubjects = new Set();
