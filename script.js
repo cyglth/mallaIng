@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function() {
     // Obtener todos los elementos de asignatura
     const subjects = document.querySelectorAll('.subject');
     let approvedSubjects = new Set(JSON.parse(localStorage.getItem('approvedSubjects') || '[]'));
@@ -69,3 +68,4 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('.container').appendChild(resetBtn);
     updateSubjects();
 });
+}
